@@ -13,13 +13,8 @@
     grid-area: header;
     background-color: rgb(218, 243, 55);
     display: flex;
-    justify-content: space-b;
-    align-items: flex-start;
-    justify-items: left;
-    position: relative;
-}
-#seperet{
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items:center;
 }
 .sidebar{
     grid-area: sidebar;
