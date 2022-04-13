@@ -1,0 +1,45 @@
+#layout-div{
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'sidebar main main main'
+    'sidebar main main main'
+    'footer footer footer footer';
+    width: 100vw;
+    height: 100vh;
+    gap: 1%;
+}
+.header{
+    grid-area: header;
+    background-color: rgb(218, 243, 55);
+    display: flex;
+    justify-content: space-b;
+    align-items: flex-start;
+    justify-items: left;
+    position: relative;
+}
+#seperet{
+    align-items: flex-end;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(35, 82, 176);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.main{
+    grid-area: main; 
+    background-color: rgb(175, 110, 19);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(208, 23, 168);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
